@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+form {
+  width: 50%;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.step {
+  margin: 30px;
+  text-align: center;
+}
+
+span {
+  color: red;
+}
+
+input {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid purple;
+}
+
+::placeholder {
+  font-weight: 600;
+  color: rgb(255, 0, 0, 0.5);
+}
+
+select {
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.pagina {
+  display: none;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+#anterior {
+  background-color: white;
+  color: purple;
+  padding: 10px;
+  margin-right: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#anterior:active {
+  color: indigo;
+}
+
+#posterior {
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#posterior:active {
+  background-color: indigo;
+}
+
+@media screen and (max-width: 640px) {
+  form {
+    margin: 25px auto;
+    width: 90%;
+  }
+}

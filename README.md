@@ -1,4 +1,4 @@
-# itau-projeto
+# Projeto Itaú
 Repositório do Desafio Gama: Cadastro Pessoal
 
 # Link do Site:

@@ -7,7 +7,14 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  position: relative;
+  padding-bottom: 5rem;
+  min-height: 100%;
   background-color: rgb(240, 240, 240);
 }
 
@@ -98,6 +105,16 @@ select {
 
 #posterior:active {
   background-color: indigo;
+}
+
+footer {
+  background-color: purple;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 @media screen and (max-width: 640px) {

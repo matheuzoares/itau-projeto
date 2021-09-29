@@ -26,7 +26,7 @@ https://projeto-matheus.netlify.app/
 https://github.com/matheuzoares/itau-projeto
 
 # Perfil do LinkedIn:
-https://www.linkedin.com/in/matheuzoares/
+https://www.linkedin.com/in/matheus-soares/
 
 # Links de Pesquisa:
 [Formulário de várias páginas](https://www.w3schools.com/howto/howto_js_form_steps.asp)\
